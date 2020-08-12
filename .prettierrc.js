@@ -1,6 +1,9 @@
+const { prettierConfig } = require('poetic');
+
 module.exports = {
-  bracketSpacing: false,
-  jsxBracketSameLine: true,
-  singleQuote: true,
-  trailingComma: 'all',
+  ...prettierConfig,
+  // Add custom rules here
+  jsxBracketSameLine: false,
+  bracketSpacing: true,
+  semi: true,
 };
