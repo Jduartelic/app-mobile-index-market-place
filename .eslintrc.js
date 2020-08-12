@@ -14,5 +14,7 @@ module.exports = {
     'no-duplicate-case': 1,
     'import/prefer-default-export': 0,
     'no-plusplus': 0,
+    'react/prefer-stateless-function': 0,
+    'no-useless-constructor': 0,
   },
 };
