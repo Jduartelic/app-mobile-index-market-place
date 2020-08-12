@@ -4,7 +4,6 @@
 
 module.exports = {
   extends: ['./node_modules/poetic/config/eslint/eslint-config.js'],
-  // Add custom rules here
   rules: {
     'getter-return': 2,
     'no-console': 2,
@@ -13,7 +12,7 @@ module.exports = {
     'no-dupe-else-if': 1,
     'no-dupe-keys': 1,
     'no-duplicate-case': 1,
-    'react/state-in-constructor': 1,
-    // 'no-restricted-exports': 1,
+    'import/prefer-default-export': 0,
+    'no-plusplus': 0,
   },
 };
