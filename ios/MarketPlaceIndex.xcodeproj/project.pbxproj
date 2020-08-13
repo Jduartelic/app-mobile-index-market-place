@@ -20,6 +20,7 @@
 		8F56EDE0A099AB0177C86795 /* libPods-MarketPlaceIndex-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F0D9226BDF34FBE59210911 /* libPods-MarketPlaceIndex-tvOS.a */; };
 		94C818A41A39A9880FB2FDFD /* libPods-MarketPlaceIndex-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB624CEB6477F503CD42D68 /* libPods-MarketPlaceIndex-tvOSTests.a */; };
 		9D25561B5C6BAB82A88BA6A3 /* libPods-MarketPlaceIndex-MarketPlaceIndexTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D53312A26E1B3C99B585DE82 /* libPods-MarketPlaceIndex-MarketPlaceIndexTests.a */; };
+		E207EECB24E47BBD0099ED91 /* libRNGestureHandler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E207EECA24E47BBD0099ED91 /* libRNGestureHandler.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		CD3F981132E8D76E215103E7 /* Pods-MarketPlaceIndex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarketPlaceIndex.debug.xcconfig"; path = "Target Support Files/Pods-MarketPlaceIndex/Pods-MarketPlaceIndex.debug.xcconfig"; sourceTree = "<group>"; };
 		D53312A26E1B3C99B585DE82 /* libPods-MarketPlaceIndex-MarketPlaceIndexTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MarketPlaceIndex-MarketPlaceIndexTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB71B993D08C00FBFC198AB9 /* Pods-MarketPlaceIndex-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarketPlaceIndex-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-MarketPlaceIndex-tvOS/Pods-MarketPlaceIndex-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		E207EECA24E47BBD0099ED91 /* libRNGestureHandler.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libRNGestureHandler.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 		F32B0D50AB1ABE57452364E6 /* Pods-MarketPlaceIndex-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarketPlaceIndex-tvOS.release.xcconfig"; path = "Target Support Files/Pods-MarketPlaceIndex-tvOS/Pods-MarketPlaceIndex-tvOS.release.xcconfig"; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E207EECB24E47BBD0099ED91 /* libRNGestureHandler.a in Frameworks */,
 				1490AD87D38BF9B2216C9C60 /* libPods-MarketPlaceIndex.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -134,7 +137,6 @@
 				B88DD19C50EBF3741B829D7F /* Pods-MarketPlaceIndex-tvOSTests.debug.xcconfig */,
 				8727434E0EECF7F1B6E26D47 /* Pods-MarketPlaceIndex-tvOSTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -155,6 +157,7 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				E207EECA24E47BBD0099ED91 /* libRNGestureHandler.a */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
 				476C35849B264F655D89ACED /* libPods-MarketPlaceIndex.a */,
