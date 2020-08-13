@@ -8,6 +8,10 @@ target 'MarketPlaceIndex' do
 
   use_react_native!(:path => config["reactNativePath"])
 
+
+
+  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+
   target 'MarketPlaceIndexTests' do
     inherit! :complete
     # Pods for testing
