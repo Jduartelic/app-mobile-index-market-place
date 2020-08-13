@@ -13,7 +13,7 @@
     "code:lint": "eslint --ext .js,.jsx,.ts,.tsx \"src/\"",
     "code:format": "prettier './src/**/**.{js,jsx,ts,tsx}'",
     "code:check:rules": "eslint --print-config .eslintrc.js | eslint-config-prettier-check",
-    "branch:check": "branch-naming-check '((feature|fix|hotfix)/[a-z]{2}-\\d{3}-[a-z]+)|(release/v\\d\\.\\d\\.\\d|master|development)'"
+    "branch:check": "branch-naming-check '((feature|fix|hotfix)/[a-z]{2}-[a-z]+)|(release/v\\d\\.\\d\\.\\d|master|development)'"
   },
   "dependencies": {
     "@react-native-community/masked-view": "^0.1.10",
