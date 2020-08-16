@@ -17,5 +17,6 @@ module.exports = {
     'react/prefer-stateless-function': 0,
     'no-useless-constructor': 0,
     'react/jsx-props-no-spreading': 0,
+    'react/forbid-prop-types': 0,
   },
 };

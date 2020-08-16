@@ -21,6 +21,17 @@
 		94C818A41A39A9880FB2FDFD /* libPods-MarketPlaceIndex-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AB624CEB6477F503CD42D68 /* libPods-MarketPlaceIndex-tvOSTests.a */; };
 		9D25561B5C6BAB82A88BA6A3 /* libPods-MarketPlaceIndex-MarketPlaceIndexTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D53312A26E1B3C99B585DE82 /* libPods-MarketPlaceIndex-MarketPlaceIndexTests.a */; };
 		E207EECB24E47BBD0099ED91 /* libRNGestureHandler.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E207EECA24E47BBD0099ED91 /* libRNGestureHandler.a */; };
+		C93E9836B978444F9CE0E2F2 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5D0EB37B76224AA28E7375CF /* Montserrat-Bold.ttf */; };
+		AD7D9DE18252454DA0BC4A74 /* new-york-extra-large_black-italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7265276BAE86486BBE08CA8D /* new-york-extra-large_black-italic.ttf */; };
+		46E900C9387646F9969322C5 /* NewYorkLarge-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A459F0FBD1A049B8B786C28D /* NewYorkLarge-Bold.ttf */; };
+		AD75C4B3A86541D6B05EDE95 /* NewYorkLarge-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E90C219186E644FB83203C5A /* NewYorkLarge-Medium.ttf */; };
+		B077F368B02D4A21866A3510 /* NewYorkMedium-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2103D40D99394902BF2B961D /* NewYorkMedium-Black.ttf */; };
+		9A999387CCC2412C900E9B75 /* NewYorkMedium-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95CD9C442C4B40929B1DD086 /* NewYorkMedium-Bold.ttf */; };
+		4D764577580C4DD5B93E31A8 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5BDF539B663244D382001570 /* Poppins-Bold.ttf */; };
+		B1078D044E69459686A868CD /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4680F0AFA2E74405953CBEDF /* Poppins-Regular.ttf */; };
+		4F423CF7964D4C319A900EF8 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 603AB1BF767E4903A7D3C252 /* Roboto-Bold.ttf */; };
+		9FF1BFC2FF78403DB2317516 /* RobotoCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 29192FA3B55C4BF7BBCE6CF8 /* RobotoCondensed-Bold.ttf */; };
+		D60DFA6A64654AB9A76388A1 /* RobotoCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD7258EA1A6C4EF3A521B9B2 /* RobotoCondensed-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +112,17 @@
 		F22511E4FD504B7F91CD8C8B /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
 		F32B0D50AB1ABE57452364E6 /* Pods-MarketPlaceIndex-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MarketPlaceIndex-tvOS.release.xcconfig"; path = "Target Support Files/Pods-MarketPlaceIndex-tvOS/Pods-MarketPlaceIndex-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		FA274F4046584104B87C34AD /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		5D0EB37B76224AA28E7375CF /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; name = "Montserrat-Bold.ttf"; path = "../assets/fonts/Montserrat-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7265276BAE86486BBE08CA8D /* new-york-extra-large_black-italic.ttf */ = {isa = PBXFileReference; name = "new-york-extra-large_black-italic.ttf"; path = "../assets/fonts/new-york-extra-large_black-italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A459F0FBD1A049B8B786C28D /* NewYorkLarge-Bold.ttf */ = {isa = PBXFileReference; name = "NewYorkLarge-Bold.ttf"; path = "../assets/fonts/NewYorkLarge-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E90C219186E644FB83203C5A /* NewYorkLarge-Medium.ttf */ = {isa = PBXFileReference; name = "NewYorkLarge-Medium.ttf"; path = "../assets/fonts/NewYorkLarge-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2103D40D99394902BF2B961D /* NewYorkMedium-Black.ttf */ = {isa = PBXFileReference; name = "NewYorkMedium-Black.ttf"; path = "../assets/fonts/NewYorkMedium-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		95CD9C442C4B40929B1DD086 /* NewYorkMedium-Bold.ttf */ = {isa = PBXFileReference; name = "NewYorkMedium-Bold.ttf"; path = "../assets/fonts/NewYorkMedium-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		5BDF539B663244D382001570 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; name = "Poppins-Bold.ttf"; path = "../assets/fonts/Poppins-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4680F0AFA2E74405953CBEDF /* Poppins-Regular.ttf */ = {isa = PBXFileReference; name = "Poppins-Regular.ttf"; path = "../assets/fonts/Poppins-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		603AB1BF767E4903A7D3C252 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; name = "Roboto-Bold.ttf"; path = "../assets/fonts/Roboto-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		29192FA3B55C4BF7BBCE6CF8 /* RobotoCondensed-Bold.ttf */ = {isa = PBXFileReference; name = "RobotoCondensed-Bold.ttf"; path = "../assets/fonts/RobotoCondensed-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BD7258EA1A6C4EF3A521B9B2 /* RobotoCondensed-Regular.ttf */ = {isa = PBXFileReference; name = "RobotoCondensed-Regular.ttf"; path = "../assets/fonts/RobotoCondensed-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -220,6 +242,17 @@
 				A0808FB684B640E68D372889 /* Octicons.ttf */,
 				536250036DBB4D78BAE6D7AC /* SimpleLineIcons.ttf */,
 				DE14F29BF8934A2CBD8F91A0 /* Zocial.ttf */,
+				5D0EB37B76224AA28E7375CF /* Montserrat-Bold.ttf */,
+				7265276BAE86486BBE08CA8D /* new-york-extra-large_black-italic.ttf */,
+				A459F0FBD1A049B8B786C28D /* NewYorkLarge-Bold.ttf */,
+				E90C219186E644FB83203C5A /* NewYorkLarge-Medium.ttf */,
+				2103D40D99394902BF2B961D /* NewYorkMedium-Black.ttf */,
+				95CD9C442C4B40929B1DD086 /* NewYorkMedium-Bold.ttf */,
+				5BDF539B663244D382001570 /* Poppins-Bold.ttf */,
+				4680F0AFA2E74405953CBEDF /* Poppins-Regular.ttf */,
+				603AB1BF767E4903A7D3C252 /* Roboto-Bold.ttf */,
+				29192FA3B55C4BF7BBCE6CF8 /* RobotoCondensed-Bold.ttf */,
+				BD7258EA1A6C4EF3A521B9B2 /* RobotoCondensed-Regular.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -379,6 +412,7 @@
 					};
 					13B07F861A680F5B00A75B9A = {
 						LastSwiftMigration = 1120;
+						ProvisioningStyle = Automatic;
 					};
 					2D02E47A1E0B4A5D006451C7 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -426,6 +460,17 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				C93E9836B978444F9CE0E2F2 /* Montserrat-Bold.ttf in Resources */,
+				AD7D9DE18252454DA0BC4A74 /* new-york-extra-large_black-italic.ttf in Resources */,
+				46E900C9387646F9969322C5 /* NewYorkLarge-Bold.ttf in Resources */,
+				AD75C4B3A86541D6B05EDE95 /* NewYorkLarge-Medium.ttf in Resources */,
+				B077F368B02D4A21866A3510 /* NewYorkMedium-Black.ttf in Resources */,
+				9A999387CCC2412C900E9B75 /* NewYorkMedium-Bold.ttf in Resources */,
+				4D764577580C4DD5B93E31A8 /* Poppins-Bold.ttf in Resources */,
+				B1078D044E69459686A868CD /* Poppins-Regular.ttf in Resources */,
+				4F423CF7964D4C319A900EF8 /* Roboto-Bold.ttf in Resources */,
+				9FF1BFC2FF78403DB2317516 /* RobotoCondensed-Bold.ttf in Resources */,
+				D60DFA6A64654AB9A76388A1 /* RobotoCondensed-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -803,7 +848,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = MarketPlaceIndex/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -814,6 +862,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = MarketPlaceIndex;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -826,7 +875,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = MarketPlaceIndex/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
@@ -836,6 +888,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = MarketPlaceIndex;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};

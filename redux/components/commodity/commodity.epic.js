@@ -26,12 +26,14 @@ export const getCommoditysEpic = (action$) =>
       return request({
         method: 'GET',
         url: `${URL}/last`,
-        headers: {
-          'Content-Type': 'application/json',
-        },
+        headers: { Accept: 'application/json', 'Content-Type': 'application/json' },
       }).pipe(
         map(({ response }) => {
-          const responseData = { data: response };
+          const processedData = Object.values(response).map((item) => {
+            return item;
+          });
+          const responseData = { data: processedData };
+
           return commoditysGetSuccess(responseData);
         }),
         catchError((error) => of(commoditysGetFailure(error))),
