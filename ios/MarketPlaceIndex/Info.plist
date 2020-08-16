@@ -71,6 +71,17 @@
 		<string>Octicons.ttf</string>
 		<string>SimpleLineIcons.ttf</string>
 		<string>Zocial.ttf</string>
+		<string>Montserrat-Bold.ttf</string>
+		<string>new-york-extra-large_black-italic.ttf</string>
+		<string>NewYorkLarge-Bold.ttf</string>
+		<string>NewYorkLarge-Medium.ttf</string>
+		<string>NewYorkMedium-Black.ttf</string>
+		<string>NewYorkMedium-Bold.ttf</string>
+		<string>Poppins-Bold.ttf</string>
+		<string>Poppins-Regular.ttf</string>
+		<string>Roboto-Bold.ttf</string>
+		<string>RobotoCondensed-Bold.ttf</string>
+		<string>RobotoCondensed-Regular.ttf</string>
 	</array>
 </dict>
 </plist>
