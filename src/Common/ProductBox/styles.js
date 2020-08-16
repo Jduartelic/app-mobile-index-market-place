@@ -1,5 +1,7 @@
 import { StyleSheet } from 'react-native';
+import { colors } from '../../../utils/sharedStyles';
 // import { getRandomColor } from '../../../utils/constants';
+
 const styles = StyleSheet.create({
   ProductBoxContainer: (index) => ({
     flex: 1,
@@ -18,7 +20,7 @@ const styles = StyleSheet.create({
     width: '95%',
     backgroundColor: '#fff',
     justifyContent: 'center',
-    alignItems: 'center',
+    alignItems: 'flex-start',
     borderRadius: 8,
     borderColor: '#f9f9f9',
     padding: 20,
@@ -37,7 +39,10 @@ const styles = StyleSheet.create({
   ProductBoxContainerTitleKey: {
     flex: 1,
     flexDirection: 'column',
-    width: '100%',
+    width: 'auto',
+    borderRadius: 5,
+    backgroundColor: colors.colorPrimaryBice,
+    marginBottom: 5,
   },
 
   ProductBoxContainerTitleName: {
@@ -48,14 +53,45 @@ const styles = StyleSheet.create({
 
   ProductBoxContainerPriceSymbol: {
     flex: 3,
-    flexDirection: 'column',
+    flexDirection: 'row',
     width: '100%',
+    alignItems: 'flex-end',
+    marginBottom: 5,
   },
 
   ProductBoxContainerTitleDate: {
     flex: 1,
     flexDirection: 'column',
     width: '100%',
+    alignItems: 'flex-end',
+  },
+  ProductBoxTitleKey: {
+    fontSize: 10,
+    fontFamily: 'NewYorkMedium-Black',
+    color: '#fff',
+    paddingHorizontal: 7,
+    paddingVertical: 5,
+  },
+  ProductBoxTitleName: {
+    fontSize: 16,
+    fontFamily: 'NewYorkMedium-Black',
+    color: '#292929',
+    marginVertical: 5,
+  },
+  ProductBoxTitleAmount: {
+    fontSize: 18,
+    fontFamily: 'Montserrat-Bold',
+    color: '#048a28',
+  },
+  ProductBoxTitleSymbol: {
+    fontSize: 14,
+    fontFamily: 'NewYorkLarge-Medium',
+    color: '#606060',
+  },
+  ProductBoxTitleDate: {
+    fontSize: 14,
+    fontFamily: 'NewYorkMedium-Bold',
+    color: '#292929',
   },
 });
 

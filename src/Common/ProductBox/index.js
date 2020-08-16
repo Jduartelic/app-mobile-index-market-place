@@ -14,7 +14,7 @@ const ProductBox = (commodity) => {
     <View style={styles.ProductBoxContainer(index)}>
       <View style={styles.ProductBoxContentContainer}>
         <View style={styles.ProductBoxContainerTitleKey}>
-          <Text style={styles.ProductBoxTitleKey}>{item.key}</Text>
+          <Text style={styles.ProductBoxTitleKey}>{item.key.toString().toUpperCase()}</Text>
         </View>
 
         <View style={styles.ProductBoxContainerTitleName}>
@@ -27,7 +27,7 @@ const ProductBox = (commodity) => {
         </View>
 
         <View style={styles.ProductBoxContainerTitleDate}>
-          <Text style={styles.c}>{formattedDate}</Text>
+          <Text style={styles.ProductBoxTitleDate}>{formattedDate}</Text>
         </View>
       </View>
     </View>
