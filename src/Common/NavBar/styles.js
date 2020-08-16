@@ -1,4 +1,5 @@
 import { StyleSheet, Platform } from 'react-native';
+import { colors } from '../../../utils/sharedStyles';
 
 const styles = StyleSheet.create({
   headerContainer: {
@@ -24,8 +25,9 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   title: {
-    fontSize: 16,
-    color: '#000',
+    fontSize: 24,
+    fontFamily: 'Montserrat-Bold',
+    color: colors.colorPrimaryBice,
   },
   iconText: {
     fontSize: 16,
