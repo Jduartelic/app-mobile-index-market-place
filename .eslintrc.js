@@ -18,5 +18,8 @@ module.exports = {
     'no-useless-constructor': 0,
     'react/jsx-props-no-spreading': 0,
     'react/forbid-prop-types': 0,
+    'import/extensions': 0,
+    'import/no-unresolved': 0,
+    'no-shadow': 0,
   },
 };
